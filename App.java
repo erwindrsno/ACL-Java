@@ -19,9 +19,9 @@ public class App {
         File file = new File("folder-1");
 
         if (file.exists()) {
-            System.out.println("File exists\n");
+            System.out.println("\nFile exists\n");
         } else {
-            System.out.println("File not exists");
+            System.out.println("\nFile not exists");
             sc.close();
             return;
         }   
